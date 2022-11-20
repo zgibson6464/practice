@@ -1,5 +1,5 @@
 class Surgeon {
-    constructor(name, department, remainingVacationDays) {
+    constructor(name, department) {
         this._name = name;
         this._department = department;
         this._remainingVacationDays = 20;

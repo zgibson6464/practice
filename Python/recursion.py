@@ -4,3 +4,5 @@ def rFib(n):
     elif n == 1 or n == 2:
         return 1
     return rFib(n-1) + rFib(n-2)
+
+print(rFib(1))
